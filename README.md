@@ -39,16 +39,20 @@ Install dependencies with pip:
 # On Linux:
 ```bash
 pip install numpy sounddevice
+```
 # On Windows:
+```bash
 pip install windows-curses
-
+```
 
 
 ## Installation
 
 1 Clone the repository:
-```git clone https://github.com/yourusername/xy-oscilloscope-pong.git
-```cd xy-oscilloscope-pong
+```bash
+git clone https://github.com/yourusername/xy-oscilloscope-pong.git
+cd xy-oscilloscope-pong
+```
 
 2 Install dependencies (see section above).
 
@@ -57,7 +61,9 @@ pip install windows-curses
 ## Usage
 
 Run the game from a terminal:
-```python3 simple_pong.py
+```bash
+python3 simple_pong.py
+```
 
 Notes:
 -Ensure your stereo output is connected to the oscilloscope (Left = X, Right = Y).
@@ -97,7 +103,9 @@ Up Arrow – Launch ball from paddle
 
 Connect your stereo output to an XY oscilloscope and run:
 
-``` python3 simple_pong.py
+```bash
+python3 simple_pong.py
+```
 
 You should see the Pong field and the ball moving in real-time according to your audio signal.
 
