@@ -2,6 +2,8 @@
 
 This Python project implements a version of the classic Pong game that is rendered directly on an XY oscilloscope using stereo audio output. The left and right audio channels control the X and Y positions, allowing you to visualize the game in real-time on an oscilloscope in XY mode.
 
+![Pong Game Screenshot](image.png)
+
 ---
 
 ## Table of Contents
